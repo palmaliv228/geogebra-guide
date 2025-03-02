@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Руководство по GeoGebra</title>
+    <link rel="stylesheet" href="geogebra-styles.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="logo">
+            <h2>GeoGebra</h2>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <div class="menu-item">
+                    <a href="#how-to-use">Как использовать</a>
+                    <span class="arrow">▼</span>
+                </div>
+                <ul class="submenu">
+                    <li><a href="#what-is">Что такое GeoGebra</a></li>
+                    <li><a href="#getting-started">Начало работы</a></li>
+                    <li><a href="#features">Основные возможности</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="menu-item">
+                    <a href="#examples">Примеры</a>
+                    <span class="arrow">▼</span>
+                </div>
+                <ul class="submenu">
+                    <li><a href="#triangle">Построение треугольника</a></li>
+                    <li><a href="#function">Построение графика</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="content">
+        <section id="how-to-use">
+            <h1>Как использовать GeoGebra</h1>
+            <div class="content-block">
+                <h2 id="what-is">Что такое GeoGebra?</h2>
+                <p>GeoGebra - это бесплатное математическое программное обеспечение, объединяющее геометрию, алгебру и математический анализ. Это мощный инструмент для создания математических чертежей, графиков функций и интерактивных геометрических построений.</p>
+                
+                <h2 id="getting-started">Начало работы</h2>
+                <p>1. Откройте GeoGebra через браузер на официальном сайте или установите приложение</p>
+                <p>2. Ознакомьтесь с основными инструментами на панели инструментов:</p>
+                <ul>
+                    <li>Инструменты построения (точка, прямая, окружность)</li>
+                    <li>Инструменты измерения</li>
+                    <li>Инструменты преобразования</li>
+                </ul>
+                
+                <h2 id="features">Основные возможности</h2>
+                <ul>
+                    <li>Построение геометрических фигур</li>
+                    <li>Построение графиков функций</li>
+                    <li>Решение уравнений</li>
+                    <li>Создание анимаций</li>
+                    <li>Экспорт чертежей</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="examples">
+            <h1>Примеры</h1>
+            
+            <div class="example" id="triangle">
+                <div class="example-text">
+                    <h3>Построение треугольника</h3>
+                    <p>1. Выберите инструмент "Многоугольник"</p>
+                    <p>2. Поставьте три точки на полотне</p>
+                    <p>3. Замкните фигуру, кликнув на первую точку</p>
+                    <p>Результат: получится треугольник с возможностью измерения углов и сторон</p>
+                </div>
+                <div class="example-image">
+                    <img src="triangle-example.png" alt="Пример построения треугольника">
+                </div>
+            </div>
+
+            <div class="example" id="function">
+                <div class="example-text">
+                    <h3>Построение графика функции</h3>
+                    <p>1. В строке ввода напишите уравнение (например, y=x²)</p>
+                    <p>2. Нажмите Enter</p>
+                    <p>3. График автоматически построится</p>
+                    <p>4. Используйте инструменты масштабирования для настройки отображения</p>
+                </div>
+                <div class="example-image">
+                    <img src="function-example.png" alt="Пример построения графика функции">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html> 
