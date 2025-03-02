@@ -1,0 +1,181 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    background-color: #E8F9F1;
+}
+
+.sidebar {
+    width: 280px;
+    height: 100vh;
+    position: fixed;
+    background-color: white;
+    padding: 20px;
+    border-right: 1px solid #e0e0e0;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.05);
+}
+
+.logo {
+    padding: 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo h2 {
+    color: #2B8F5C;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.nav-links > li {
+    margin: 10px 0;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #E8F9F1;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.menu-item:hover {
+    background-color: #D1F5E3;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #2B8F5C;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.arrow {
+    font-size: 12px;
+    color: #2B8F5C;
+    transition: transform 0.3s ease;
+}
+
+.submenu {
+    list-style: none;
+    margin-left: 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.nav-links > li:hover .submenu {
+    max-height: 200px;
+}
+
+.nav-links > li:hover .arrow {
+    transform: rotate(180deg);
+}
+
+.submenu li {
+    padding: 8px 10px;
+    margin: 5px 0;
+}
+
+.submenu a {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.submenu a:hover {
+    color: #2B8F5C;
+}
+
+.content {
+    margin-left: 280px;
+    padding: 40px;
+    width: calc(100% - 280px);
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h1 {
+    color: #2B8F5C;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+h2 {
+    color: #2B8F5C;
+    margin: 25px 0 15px 0;
+    font-size: 1.5em;
+}
+
+h3 {
+    color: #2B8F5C;
+    margin: 20px 0 10px 0;
+    font-size: 1.3em;
+}
+
+p {
+    margin: 10px 0;
+    line-height: 1.6;
+    color: #666;
+}
+
+ul {
+    margin: 10px 0 10px 20px;
+    color: #666;
+}
+
+ul li {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+.example {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.example-text {
+    margin-bottom: 20px;
+}
+
+.example-image {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+}
+
+.example-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content-block {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+html {
+    scroll-behavior: smooth;
+} 
